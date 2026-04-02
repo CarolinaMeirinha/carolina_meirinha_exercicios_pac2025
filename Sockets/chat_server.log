@@ -1,0 +1,124 @@
+2026-03-27 14:21:58,409 - INFO - Aguardando conex�es...
+2026-03-27 14:26:32,777 - INFO - Aguardando conex�es...
+2026-03-27 14:31:10,016 - INFO - SERVIDOR INICIADO em 127.0.0.1:12345
+2026-03-27 14:31:10,016 - INFO - Aguardando conexoes...
+2026-03-27 14:31:10,016 - INFO - NOTA: O servidor apenas gerencia mensagens, nao participa do chat
+2026-03-27 14:31:36,176 - INFO - Cliente conectado: p - ('127.0.0.1', 53293)
+2026-03-27 14:31:43,857 - INFO - Mensagem de p: ola
+2026-03-27 14:32:03,725 - INFO - Mensagem de p: telefone 11111
+2026-03-27 14:32:54,726 - INFO - Mensagem de p: ok
+2026-03-27 14:33:05,772 - WARNING - DADOS PESSOAIS DETECTADOS - data_nascimento: ['11/09/2003'] - Cliente: p
+2026-03-27 14:33:05,772 - INFO - Mensagem BLOQUEADA de p: 11/09/2003
+2026-03-27 14:33:05,773 - INFO - Cliente p teve mensagem bloqueada
+2026-03-27 14:33:20,481 - INFO - Mensagem de p: 102000102
+2026-03-27 14:33:32,321 - INFO - Mensagem de p: +222 0299 02002 002
+2026-03-27 14:33:45,566 - ERROR - Erro processando mensagem de p: [WinError 10054] Uma ligação existente foi forçada a fechar pelo anfitrião remoto
+2026-03-27 14:33:45,566 - INFO - Cliente desconectado: p
+2026-04-01 11:50:59,577 - INFO - SERVIDOR INICIADO em 127.0.0.1:12345
+2026-04-01 11:50:59,579 - INFO - Aguardando conexoes...
+2026-04-01 11:50:59,581 - INFO - Modo: Servidor passivo - apenas gerencia mensagens
+2026-04-01 11:50:59,581 - INFO - Comandos disponiveis para clientes: /msg, /users, /help
+2026-04-01 11:51:17,071 - INFO - Cliente conectado: carol - ('127.0.0.1', 53252)
+2026-04-01 11:51:24,726 - INFO - Cliente conectado: ana - ('127.0.0.1', 63639)
+2026-04-01 11:51:31,037 - INFO - Mensagem de ana: ola
+2026-04-01 11:52:01,645 - INFO - Dados pessoais de carol guardados: nome_completo
+2026-04-01 11:52:01,646 - WARNING - DADOS PESSOAIS DETECTADOS - nome_completo: ['ola ana'] - Cliente: carol
+2026-04-01 11:52:01,647 - INFO - Mensagem BLOQUEADA de carol: ola ana
+2026-04-01 11:52:01,647 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 11:52:23,114 - INFO - Dados pessoais de ana guardados: nome_completo
+2026-04-01 11:52:23,115 - WARNING - DADOS PESSOAIS DETECTADOS - nome_completo: ['tudo bem'] - Cliente: ana
+2026-04-01 11:52:23,115 - INFO - Mensagem BLOQUEADA de ana: tudo bem
+2026-04-01 11:52:23,116 - INFO - Cliente ana teve mensagem bloqueada
+2026-04-01 11:53:51,251 - INFO - Mensagem de carol: oi
+2026-04-01 11:53:58,471 - INFO - Mensagem de ana: oi
+2026-04-01 11:54:48,852 - INFO - Cliente desconectado: carol
+2026-04-01 12:02:02,098 - INFO - SERVIDOR INICIADO em 127.0.0.1:12345
+2026-04-01 12:02:02,099 - INFO - Aguardando conexoes...
+2026-04-01 12:02:02,099 - INFO - Modo: Servidor passivo - apenas gerencia mensagens
+2026-04-01 12:02:02,099 - INFO - Comandos disponiveis para clientes: /msg, /users, /help
+2026-04-01 12:02:18,256 - INFO - Cliente conectado: carol - ('127.0.0.1', 60359)
+2026-04-01 12:02:31,945 - INFO - Cliente conectado: maria - ('127.0.0.1', 59311)
+2026-04-01 12:02:34,525 - INFO - Mensagem de maria: ola
+2026-04-01 12:02:51,442 - INFO - Mensagem de carol: ola maria
+2026-04-01 12:02:56,404 - INFO - Mensagem de carol: tudo bem?
+2026-04-01 12:03:01,372 - INFO - Mensagem de carol: tudo e contigo
+2026-04-01 12:03:18,380 - INFO - Mensagem de maria: tudo bem?
+2026-04-01 12:03:24,058 - INFO - Mensagem de carol: tudo e contigo?
+2026-04-01 12:03:28,775 - INFO - Mensagem de maria: tudo bem
+2026-04-01 12:03:39,581 - INFO - Mensagem de carol: ainda bem
+2026-04-01 12:03:54,846 - INFO - Dados pessoais de maria guardados: nome_completo -> meu numero
+2026-04-01 12:03:54,847 - WARNING - DADOS PESSOAIS DETECTADOS - nome_completo: meu numero - Cliente: maria
+2026-04-01 12:03:54,848 - INFO - Mensagem BLOQUEADA de maria: pega ai no meu numero de telefone 123456789
+2026-04-01 12:03:54,848 - INFO - Cliente maria teve mensagem bloqueada
+2026-04-01 12:04:18,728 - INFO - Mensagem de carol: telefone 123456789
+2026-04-01 12:04:35,919 - INFO - Dados pessoais de carol guardados: email -> caorll@gamsi.com
+2026-04-01 12:04:35,921 - WARNING - DADOS PESSOAIS DETECTADOS - email: caorll@gamsi.com - Cliente: carol
+2026-04-01 12:04:35,923 - INFO - Dados pessoais de carol guardados: nome_completo -> email caorll
+2026-04-01 12:04:35,924 - WARNING - DADOS PESSOAIS DETECTADOS - nome_completo: email caorll - Cliente: carol
+2026-04-01 12:04:35,924 - INFO - Mensagem BLOQUEADA de carol: email caorll@gamsi.com
+2026-04-01 12:04:35,925 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 12:05:11,143 - INFO - Mensagem privada de carol para maria: ola
+2026-04-01 12:05:24,617 - INFO - Mensagem de carol: /hekp
+2026-04-01 12:05:45,424 - INFO - Mensagem de carol: 695478125
+2026-04-01 12:06:10,838 - INFO - Dados pessoais de carol guardados: cartao_credito -> 1234 5678 9658 4785
+2026-04-01 12:06:10,838 - WARNING - DADOS PESSOAIS DETECTADOS - cartao_credito: 1234 5678 9658 4785 - Cliente: carol
+2026-04-01 12:06:10,839 - INFO - Mensagem BLOQUEADA de carol: 1234 5678 9658 4785
+2026-04-01 12:06:10,839 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 12:06:22,493 - INFO - Dados pessoais de carol guardados: email -> exemplo@dominio.com
+2026-04-01 12:06:22,493 - WARNING - DADOS PESSOAIS DETECTADOS - email: exemplo@dominio.com - Cliente: carol
+2026-04-01 12:06:22,494 - INFO - Mensagem BLOQUEADA de carol: exemplo@dominio.com
+2026-04-01 12:06:22,494 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 12:06:35,583 - INFO - Dados pessoais de carol guardados: telefone -> 911458789
+2026-04-01 12:06:35,583 - WARNING - DADOS PESSOAIS DETECTADOS - telefone: 911458789 - Cliente: carol
+2026-04-01 12:06:35,585 - INFO - Mensagem BLOQUEADA de carol: 911458789
+2026-04-01 12:06:35,585 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 12:06:53,119 - INFO - Dados pessoais de carol guardados: ip -> 192.168.10.2
+2026-04-01 12:06:53,120 - WARNING - DADOS PESSOAIS DETECTADOS - ip: 192.168.10.2 - Cliente: carol
+2026-04-01 12:06:53,120 - INFO - Mensagem BLOQUEADA de carol: 192.168.10.2
+2026-04-01 12:06:53,121 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 12:08:46,142 - ERROR - Erro processando mensagem de maria: [WinError 10054] Uma ligação existente foi forçada a fechar pelo anfitrião remoto
+2026-04-01 12:08:46,142 - INFO - Cliente desconectado: maria
+2026-04-01 12:08:46,228 - ERROR - Erro processando mensagem de carol: [WinError 10054] Uma ligação existente foi forçada a fechar pelo anfitrião remoto
+2026-04-01 12:16:16,009 - INFO - SERVIDOR INICIADO em 127.0.0.1:12345
+2026-04-01 12:16:16,010 - INFO - Aguardando conexoes...
+2026-04-01 12:16:16,010 - INFO - Modo: Servidor passivo - apenas gerencia mensagens
+2026-04-01 12:16:16,010 - INFO - Comandos disponiveis para clientes: /msg, /users, /help
+2026-04-01 12:16:38,590 - INFO - Cliente conectado: carol - ('127.0.0.1', 59783)
+2026-04-01 12:16:56,633 - INFO - Cliente conectado: maria - ('127.0.0.1', 59784)
+2026-04-01 12:17:04,543 - INFO - Mensagem de carol: ola
+2026-04-01 12:17:08,896 - INFO - Mensagem de maria: ola carol
+2026-04-01 12:17:13,469 - INFO - Mensagem de carol: tudo bem
+2026-04-01 12:17:19,196 - INFO - Mensagem de maria: tudo sim
+2026-04-01 12:17:26,707 - INFO - Mensagem de carol: queres o meu numero?
+2026-04-01 12:17:30,315 - INFO - Mensagem de maria: sim
+2026-04-01 12:17:43,061 - INFO - Dados pessoais de carol guardados: telefone -> 254789699
+2026-04-01 12:17:43,061 - WARNING - DADOS PESSOAIS DETECTADOS - telefone: 254789699 - Cliente: carol
+2026-04-01 12:17:43,061 - INFO - Mensagem BLOQUEADA de carol: 254789699
+2026-04-01 12:17:43,062 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 12:17:51,572 - INFO - Mensagem de carol: 356789425
+2026-04-01 12:18:18,482 - INFO - Dados pessoais de carol guardados: email -> carol@gmail.com
+2026-04-01 12:18:18,482 - WARNING - DADOS PESSOAIS DETECTADOS - email: carol@gmail.com - Cliente: carol
+2026-04-01 12:18:18,482 - INFO - Mensagem BLOQUEADA de carol: este é o meu email carol@gmail.com
+2026-04-01 12:18:18,483 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 12:18:30,613 - INFO - Dados pessoais de carol guardados: nome_completo -> Carol Alexandra
+2026-04-01 12:18:30,613 - WARNING - DADOS PESSOAIS DETECTADOS - nome_completo: Carol Alexandra - Cliente: carol
+2026-04-01 12:18:30,614 - INFO - Mensagem BLOQUEADA de carol: Carol Alexandra
+2026-04-01 12:18:30,614 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-01 12:18:57,010 - ERROR - Erro processando mensagem de carol: [WinError 10054] Uma ligação existente foi forçada a fechar pelo anfitrião remoto
+2026-04-01 12:18:57,011 - INFO - Cliente desconectado: carol
+2026-04-01 12:18:58,160 - ERROR - Erro processando mensagem de maria: [WinError 10054] Uma ligação existente foi forçada a fechar pelo anfitrião remoto
+2026-04-02 16:09:36,471 - INFO - SERVIDOR INICIADO em 127.0.0.1:12345
+2026-04-02 16:09:36,504 - INFO - Aguardando conexões...
+2026-04-02 16:09:36,505 - INFO - Modo: Servidor passivo - apenas gere mensagens
+2026-04-02 16:09:36,505 - INFO - Comandos disponíveis para clientes: /msg, /users, /help
+2026-04-02 16:10:04,638 - INFO - Cliente conectado: carol - ('127.0.0.1', 50136)
+2026-04-02 16:10:14,830 - INFO - Cliente conectado: maria - ('127.0.0.1', 64247)
+2026-04-02 16:10:20,928 - INFO - Mensagem de carol: ola
+2026-04-02 16:10:23,729 - INFO - Mensagem de maria: ola
+2026-04-02 16:10:46,038 - INFO - Dados pessoais de carol guardados: telefone -> 987456321
+2026-04-02 16:10:46,039 - WARNING - DADOS PESSOAIS DETETADOS - telefone: 987456321 - Cliente: carol
+2026-04-02 16:10:46,039 - INFO - Mensagem BLOQUEADA de carol: 987456321
+2026-04-02 16:10:46,040 - INFO - Cliente carol teve mensagem bloqueada
+2026-04-02 16:10:50,542 - ERROR - Erro ao processar mensagem de carol: [WinError 10054] Uma ligação existente foi forçada a fechar pelo anfitrião remoto
+2026-04-02 16:10:50,543 - INFO - Cliente desconectado: carol
+2026-04-02 16:10:52,071 - ERROR - Erro ao processar mensagem de maria: [WinError 10054] Uma ligação existente foi forçada a fechar pelo anfitrião remoto
