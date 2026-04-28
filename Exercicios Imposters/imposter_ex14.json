@@ -1,0 +1,77 @@
+{
+  "port": 8000,
+  "protocol": "http",
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST"
+          }
+        },
+        {
+          "not": {
+            "contains": {
+              "headers": {
+                "Content-Type": "application/json"
+              }
+            }
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 415,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "unsupported_media_type",
+              "message": "Content-Type application/json e obrigatorio"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "POST"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 404,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "error": "not_found"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 404,
+            "body": "Not Found"
+          }
+        }
+      ]
+    }
+  ]
+}

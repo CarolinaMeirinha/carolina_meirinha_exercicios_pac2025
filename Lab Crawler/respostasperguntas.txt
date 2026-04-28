@@ -1,0 +1,18 @@
+"""
+PERGUNTAS DE REFLEXÃO:
+
+1. Porque é importante respeitar o robots.txt?
+   R: O robots.txt define as regras do dono do site. Respeitá-lo evita 
+      sobrecarga dos servidores, acede apenas a áreas permitidas e 
+      mantém uma conduta ética no crawling.
+
+2. O que pode acontecer se um crawler for mal implementado?
+   R: Pode sobrecarregar servidores (DDoS acidental), levar ao bloqueio 
+      do IP, consumir largura de banda excessiva, aceder a dados 
+      privados ou violar termos de serviço.
+
+3. Qual a diferença entre crawling e scraping?
+   R: Crawling é navegar por links para descobrir páginas. 
+      Scraping é extrair dados específicos de uma página. 
+      Um crawler pode fazer scraping durante a navegação.
+"""
